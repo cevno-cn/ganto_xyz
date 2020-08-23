@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>neumorphism</title>
+		<link rel="icon" href="/img/cevno.ico">
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: white;
+			}
+			.box{
+				width: 100%;
+				height: 100%;
+				background-color: #ECF0F3;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			span{
+				display: inline-block;
+				width: 300px;
+				height: 300px;
+				border-radius: 50%;
+				background-color: #ECF0F3;
+				box-shadow: 30px 30px 35px #d1d9e6 inset, -30px -30px 25px white inset;
+			}
+			i{
+				display: inline-block;
+				width: 170px;
+				height: 170px;
+				border-radius: 50%;
+				background-color: #ECF0F3;
+				position: absolute;
+				top: 50%;
+				margin-top: -85px;
+				left: 50%;
+				margin-left: -85px;
+				box-shadow: 23px 23px 28px #d1d9e6, -7px -7px 25px white;
+			}
+			.p{
+				position: absolute;
+				bottom: 70px;
+				text-align: center;
+			}
+			.p>div{
+				width: 200px;
+				height: 80px;
+				border-radius: 40px;
+				box-shadow: 15px 15px 25px #d1d9e6, -10px -10px 15px white;
+				text-align: center;
+				line-height: 80px;
+				color: #2AB2AB;
+				cursor: pointer;
+			}
+			.p>div:hover{
+				box-shadow: 15px 15px 16px #d1d9e6 inset, -15px -15px 16px white inset;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<span>
+				<i></i>
+			</span>
+			<div class="p">
+				<div></div>
+			</div>
+		</div>
+	</body>
+</html>
